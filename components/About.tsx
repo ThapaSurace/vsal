@@ -9,10 +9,10 @@ export default function About() {
     <>
       {/* Professional Summary Section */}
       <div className="space-y-6">
-        <h2 className="scroll-m-20 text-2xl font-semibold mb-4 tracking-wider">
+        <h2 className="scroll-m-20 text-xl md:text-2xl font-semibold mb-4 tracking-wider">
           Professional Summary
         </h2>
-        <p className="text-muted-foreground leading-relaxed text-justify tracking-wide">
+        <p className="text-muted-foreground text-sm md:text-base md:leading-relaxed text-justify md:tracking-wide">
           A proactive Bachelor of Public Health (B.P.H) student at Purbanchal
           University with strong academic achievement and volunteering
           experience. Possess strong analytical and communication skills with
@@ -22,17 +22,17 @@ export default function About() {
         </p>
       </div>
 
-      <Separator className="my-16" />
+      <Separator className="my-10 md:my-16" />
 
       {/* Skills Section */}
       <div>
-        <h2 className="scroll-m-20 text-2xl font-semibold mb-8 tracking-wider">
+        <h2 className="scroll-m-20 text-xl md:text-2xl font-semibold mb-6 md:mb-10 tracking-wider">
           Skills
         </h2>
         <SkillLists />
       </div>
 
-      <Separator className="my-16" />
+      <Separator className="my-10 md:my-16" />
 
       {/* Education Section */}
       <div>
