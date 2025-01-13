@@ -16,9 +16,6 @@ const ExperienceTimelineItem = ({ item }: { item: ExperienceItemProps }) => {
 
   return (
     <div className="relative pl-8 sm:pl-32 py-6 group">
-      {/* Purple label */}
-
-      {/* Vertical line, Date, Title, and Circle marker */}
       <div
         className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 
     before:h-full before:px-px before:bg-slate-300 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 
