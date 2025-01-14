@@ -12,7 +12,7 @@ export default function About() {
         <h2 className="scroll-m-20 text-xl md:text-2xl font-semibold mb-4 tracking-wider">
           Professional Summary
         </h2>
-        <p className="text-muted-foreground text-sm md:text-base md:leading-relaxed text-justify md:tracking-wide">
+        <p className="text-secondary-foreground text-sm md:text-base md:leading-relaxed text-justify md:tracking-wide">
           A proactive Bachelor of Public Health (B.P.H) student at Purbanchal
           University with strong academic achievement and volunteering
           experience. Possess strong analytical and communication skills with

@@ -1,5 +1,7 @@
 import { Separator } from "@/components/ui/separator";
 import { Timeline } from "@/components/ui/timeline";
+import { LocateFixed } from "lucide-react";
+import { Badge } from "./ui/badge";
 
 export default function ExperienceTimeline() {
   const experienceData = [
@@ -7,17 +9,29 @@ export default function ExperienceTimeline() {
       title: "04/2022 – 06/2022",
       content: (
         <div className="">
-          <div className="flex items-center gap-4 text-2xl font-semibold mb-2">
-            <span>ENPHO</span>
-            <Separator orientation="vertical" className="h-4" />
-            <span>Lalitpur</span>
+          <div>
+            <div className="mb-4 space-y-1">
+              <span className="flex flex-col gap-1 text-3xl font-semibold tracking-wider">
+                ENPHO
+              </span>
+            </div>
+            <div className="flex justify-between items-center border-y py-4">
+              <div className=" text-gray-700 dark:text-gray-300 tracking-wide flex gap-1 items-center">
+                <LocateFixed size={15} />
+                <span>Lalitpur</span>
+              </div>
+              <Badge className="space-x-1">
+                <span>Role</span>
+                <span>:</span>
+                <span> Volunteer</span>
+              </Badge>
+            </div>
           </div>
-          <p className="text-slate-300">
-            <span>role: </span>
-            <span>volunteer</span>
-          </p>
+
           <div className="mt-6">
-            <h3 className="text-lg mb-2">Responsibilities</h3>
+            <h3 className="text-lg mb-4 font-medium tracking-wide">
+              Responsibilities
+            </h3>
             <ul className="text-sm space-y-2 list-disc px-4 md:px-0">
               <li>
                 Planned, prepared and delivered sessions related WASH and CCRM
@@ -54,17 +68,28 @@ export default function ExperienceTimeline() {
       title: "04/2022 – 04/2022",
       content: (
         <div>
-          <div className="flex items-center gap-4 text-2xl font-semibold mb-2">
-            <span>NIHE</span>
-            <Separator orientation="vertical" className="h-4" />
-            <span>Pashupati</span>
+          <div>
+            <div className="mb-4 space-y-1">
+              <span className="flex flex-col gap-1 text-3xl font-semibold tracking-wider">
+                NIHE
+              </span>
+            </div>
+            <div className="flex justify-between items-center border-y py-4">
+              <div className=" text-gray-700 dark:text-gray-300 tracking-wide flex gap-1 items-center">
+                <LocateFixed size={15} />
+                <span>Lalitpur</span>
+              </div>
+              <Badge className="space-x-1">
+                <span>Role</span>
+                <span>:</span>
+                <span>Pashupati</span>
+              </Badge>
+            </div>
           </div>
-          <p className="text-slate-300">
-            <span>role: </span>
-            <span>Data Collector</span>
-          </p>
           <div className="mt-6">
-            <h3 className="text-lg mb-2">Responsibilities</h3>
+            <h3 className="text-lg mb-4 font-medium tracking-wide">
+              Responsibilities
+            </h3>
             <ul className="text-sm space-y-2 list-disc  px-4 md:px-0">
               <li>Conducted surveys and documented all responses.</li>
               <li>Collected waste related information at Pashupati area.</li>
@@ -85,17 +110,29 @@ export default function ExperienceTimeline() {
       title: "03/2022 – 03/2022",
       content: (
         <div>
-          <div className="flex items-center gap-4 text-2xl font-semibold mb-2">
-            <span>ENPHO</span>
-            <Separator orientation="vertical" className="h-4" />
-            <span>Bhaktapur</span>
+          <div>
+            <div className="mb-4 space-y-1">
+              <span className="flex flex-col gap-1 text-3xl font-semibold tracking-wider">
+                ENPHO
+              </span>
+            </div>
+            <div className="flex justify-between items-center border-y py-4">
+              <div className=" text-gray-700 dark:text-gray-300 tracking-wide flex gap-1 items-center">
+                <LocateFixed size={15} />
+                <span>Bhaktapur</span>
+              </div>
+              <Badge className="space-x-1">
+                <span>Role</span>
+                <span>:</span>
+                <span>Volunteer</span>
+              </Badge>
+            </div>
           </div>
-          <p className="text-slate-300">
-            <span>role: </span>
-            <span>Volunteer</span>
-          </p>
+
           <div className="mt-6">
-            <h3 className="text-lg mb-2">Responsibilities</h3>
+            <h3 className="text-lg mb-4 font-medium tracking-wide">
+              Responsibilities
+            </h3>
             <ul className="text-sm space-y-2 list-disc  px-4 md:px-0">
               <li>
                 Met with Programme participants to better understand needs and
@@ -120,19 +157,29 @@ export default function ExperienceTimeline() {
       title: "11/2021 – 12/2021",
       content: (
         <div>
-          <div className="mb-2">
-            <h3 className="text-2xl font-semibold">
-              Asian College for Advance Studies
-            </h3>
-
-            <span className="">Satdobato, Lalitpur</span>
+          <div>
+            <div className="mb-4 space-y-1">
+              <span className="flex flex-col gap-1 text-3xl font-semibold tracking-wider">
+                Asian College for Advance Studies
+              </span>
+            </div>
+            <div className="flex justify-between items-center border-y py-4">
+              <div className=" text-gray-700 dark:text-gray-300 tracking-wide flex gap-1 items-center">
+                <LocateFixed size={15} />
+                <span>Satdobato, Lalitpur</span>
+              </div>
+              <Badge className="space-x-1">
+                <span>Role</span>
+                <span>:</span>
+                <span>Intern</span>
+              </Badge>
+            </div>
           </div>
-          <p className="text-slate-300">
-            <span>role: </span>
-            <span>Intern</span>
-          </p>
+
           <div className="mt-6">
-            <h3 className="text-lg mb-2">Responsibilities</h3>
+            <h3 className="text-lg mb-4 font-medium tracking-wide">
+              Responsibilities
+            </h3>
             <ul className="text-sm space-y-2 list-disc  px-4 md:px-0">
               <li>Oversaw POSDCoRB model of the HO.</li>
               <li>
@@ -153,17 +200,29 @@ export default function ExperienceTimeline() {
       title: "12/2019 – 12/2019",
       content: (
         <div>
-          <div className="flex items-center gap-4 text-2xl font-semibold mb-2">
-            <span>Asian College for Advance Studies</span>
-            <Separator orientation="vertical" className="h-4" />
-            <span>Satdobato, Lalitpur</span>
+          <div>
+            <div className="mb-4 space-y-1">
+              <span className="flex flex-col gap-1 text-3xl font-semibold tracking-wider">
+                Asian College for Advance Studies
+              </span>
+            </div>
+            <div className="flex justify-between items-center border-y py-4">
+              <div className=" text-gray-700 dark:text-gray-300 tracking-wide flex gap-1 items-center">
+                <LocateFixed size={15} />
+                <span>Satdobato, Lalitpur</span>
+              </div>
+              <Badge className="space-x-1">
+                <span>Role</span>
+                <span>:</span>
+                <span>Intern</span>
+              </Badge>
+            </div>
           </div>
-          <p className="text-slate-300">
-            <span>role: </span>
-            <span>Intern</span>
-          </p>
+
           <div className="mt-6">
-            <h3 className="text-lg mb-2">Responsibilities</h3>
+            <h3 className="text-lg mb-4 font-medium tracking-wide">
+              Responsibilities
+            </h3>
             <ul className="text-sm space-y-2 list-disc  px-4 md:px-0">
               <li>
                 Conducted the survey with all the health related indicators
