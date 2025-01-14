@@ -7,7 +7,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 export default function Home() {
   return (
     <div>
-      <div className="h-[60dvh] sm:h-[80dvh] md:h-screen flex items-center justify-between overflow-hidden relative mt-16 md:mt-10">
+      <div className="h-[60dvh] sm:h-[80dvh] md:h-screen flex items-center justify-between overflow-hidden relative mt-40 md:mt-10">
         {/* <Meteors number={50} /> */}
         <div className="flex flex-col items-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-4 flex flex-col items-center gap-4">
