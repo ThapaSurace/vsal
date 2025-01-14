@@ -5,7 +5,7 @@ import Home from "@/components/Home";
 
 export default function page() {
   return (
-    <div className="max-w-4xl mx-auto px-4 xl:px-0 space-y-10 md:space-y-20">
+    <div className="max-w-4xl mx-auto px-4 xl:px-0 space-y-0 md:space-y-20">
       <section id="home">
         <Home />
       </section>
