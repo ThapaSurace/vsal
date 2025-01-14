@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { navLinks } from "@/data/data";
-import { ToggleTheme } from "./ToggleTheme";
 
 export default function NavBar() {
   const [activeSection, setActiveSection] = useState<string>("home");

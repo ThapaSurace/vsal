@@ -1,5 +1,3 @@
-import React from "react";
-
 interface EducationItemProps {
   label: string;
   date: string;
