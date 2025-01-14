@@ -7,7 +7,7 @@ import { Separator } from "./ui/separator";
 
 export default function Contact() {
   return (
-    <div className="mt-16 flex flex-col md:flex-row gap-10 sm:gap-16 md:gap-20">
+    <div className="mt-16 flex flex-col md:flex-row gap-10 sm:gap-16 md:gap-32">
       <div>
         <div className="flex items-center gap-2">
           <div className="bg-slate-700 p-6 rounded-md">
