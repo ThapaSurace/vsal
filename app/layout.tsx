@@ -35,10 +35,18 @@ export default function RootLayout({
             <NavBar />
 
             <div className="">
-              <div className="fixed top-8 right-20">
+              <div className="fixed top-4 sm:top-10 right-4 sm:right-20">
                 <ToggleTheme />
               </div>
               {children}
+            </div>
+            <div>
+              <footer className="text-center py-10 border-t">
+                <p className="text-sm">
+                  &copy; {new Date().getFullYear()} Bishal Dahal Khatri. All
+                  rights reserved.
+                </p>
+              </footer>
             </div>
           </main>
         </ThemeProvider>

@@ -9,6 +9,7 @@ import {
   ClipboardList,
   Bike,
 } from "lucide-react";
+import { AnimatedGroup } from "./ui/animated-group";
 
 export const skills = [
   {

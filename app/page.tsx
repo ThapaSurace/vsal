@@ -5,7 +5,7 @@ import Home from "@/components/Home";
 
 export default function page() {
   return (
-    <div className="max-w-4xl mx-auto px-4 xl:px-0 space-y-20 mb-40">
+    <div className="max-w-4xl mx-auto px-4 xl:px-0 space-y-20">
       <section id="home">
         <Home />
       </section>
@@ -17,14 +17,14 @@ export default function page() {
         <About />
       </section>
 
-      <section id="experience" className="min-h-screen py-10">
+      <section id="experience" className="py-10">
         <h1 className="text-3xl tracking-wider font-bold border-b-2 border-violet-700 pb-2 w-fit">
           Experience
         </h1>
         <ExperienceTimeline />
       </section>
 
-      <section id="contact" className="min-h-screen py-10">
+      <section id="contact" className="py-10">
         <h1 className="text-3xl tracking-wider font-bold border-b-2 border-violet-700 pb-2 w-fit">
           Contact
         </h1>

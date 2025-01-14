@@ -17,7 +17,7 @@ export default function Home() {
               text="I'm Bishal Dahal Khatri"
             ></SparklesText>
           </h1>
-          <p className="text-base sm:text-lg font-medium">
+          <p className="text-base sm:text-xl font-medium motion-preset-typewriter-[31] motion-duration-[5s] motion-ease-in-out text-violet-500">
             Health Research Officer at NHRC
           </p>
 
