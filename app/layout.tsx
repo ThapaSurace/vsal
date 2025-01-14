@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Roboto_Mono } from "next/font/google";
+import { Roboto_Mono, Roboto_Slab } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ToggleTheme } from "@/components/ToggleTheme";
@@ -9,6 +9,12 @@ import NavBar from "@/components/NavBar";
 const robotoMono = Roboto_Mono({
   variable: "--font-roboto-mono",
   subsets: ["latin"],
+});
+
+const robotoSlab = Roboto_Slab({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -23,7 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${robotoMono.variable} antialiased`}>
+      <body
+        className={`${robotoMono.variable} ${robotoSlab.className} antialiased`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
