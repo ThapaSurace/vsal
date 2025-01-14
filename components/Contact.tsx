@@ -3,10 +3,11 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 import { Textarea } from "./ui/textarea";
+import { Separator } from "./ui/separator";
 
 export default function Contact() {
   return (
-    <div className="mt-16 flex gap-20">
+    <div className="mt-16 flex flex-col md:flex-row gap-10 sm:gap-16 md:gap-20">
       <div>
         <div className="flex items-center gap-2">
           <div className="bg-slate-700 p-6 rounded-md">
@@ -15,6 +16,7 @@ export default function Contact() {
           <span>vsal@gmail.com</span>
         </div>
       </div>
+      <Separator className="md:hidden" />
       <form className="space-y-4 flex-1">
         <div className="flex gap-4">
           <div className="space-y-2 flex-1">

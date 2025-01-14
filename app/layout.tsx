@@ -35,7 +35,7 @@ export default function RootLayout({
             <NavBar />
 
             <div className="">
-              <div className="fixed top-4 sm:top-10 right-4 sm:right-20">
+              <div className="fixed top-4 sm:top-10 right-4 sm:right-20 hidden sm:block">
                 <ToggleTheme />
               </div>
               {children}

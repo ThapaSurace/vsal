@@ -2,9 +2,10 @@
 
 import { useEffect, useState } from "react";
 import { navLinks } from "@/data/data";
+import { ToggleTheme } from "./ToggleTheme";
 
 export default function NavBar() {
-  const [activeSection, setActiveSection] = useState<string>("");
+  const [activeSection, setActiveSection] = useState<string>("home");
 
   const handleNavigation = (to: string, offset: number) => {
     const section = document.querySelector(to);
@@ -50,7 +51,7 @@ export default function NavBar() {
   }, []);
 
   return (
-    <ul className="fixed top-10 left-1/2 transform -translate-x-1/2 z-50 flex gap-6 items-center text-sm border rounded-md px-6 py-4 bg-white shadow-lg dark:bg-gray-900">
+    <ul className="fixed top-8 sm:top-10 left-1/2 transform -translate-x-1/2 z-50 flex gap-6 items-center text-sm border rounded-md px-6 py-4 bg-white shadow-lg dark:bg-gray-900">
       {navLinks.map((link) => (
         <li key={link.id} className="cursor-pointer">
           <a

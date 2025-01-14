@@ -7,7 +7,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 export default function Home() {
   return (
     <div>
-      <div className="h-screen flex items-center justify-between overflow-hidden relative mt-10">
+      <div className="h-[90vh] md:h-screen flex items-center justify-between overflow-hidden relative mt-16 md:mt-10">
         {/* <Meteors number={50} /> */}
         <div className="flex flex-col items-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-4 flex flex-col items-center gap-4">
@@ -22,7 +22,7 @@ export default function Home() {
           </p>
 
           {/* Description */}
-          <p className="leading-relaxed mt-6 mb-8 text-sm sm:text-base sm:text-center">
+          <p className="leading-relaxed mt-6 mb-8 text-sm sm:text-base text-center">
             As a Health Research Officer at NHRC, I’m dedicated to improving
             public health through evidence-based research. I design studies,
             analyze data, and collaborate with teams to address health
