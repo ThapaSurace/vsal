@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import ExperienceTimeline from "@/components/ExperienceTimeline";
 import Home from "@/components/Home";
+import BoxReveal from "@/components/ui/box-reveal";
 
 export default function page() {
   return (
@@ -14,6 +15,7 @@ export default function page() {
         <h1 className="text-2xl md:text-3xl tracking-wider font-bold border-b-2 border-violet-700 pb-2 w-fit mb-10">
           About Me
         </h1>
+
         <About />
       </section>
 

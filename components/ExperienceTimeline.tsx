@@ -6,24 +6,24 @@ import { Badge } from "./ui/badge";
 export default function ExperienceTimeline() {
   const experienceData = [
     {
-      title: "04/2022 – 06/2022",
+      title: "July 2023 - Present",
       content: (
         <div className="">
           <div>
             <div className="mb-4 space-y-1">
               <span className="flex flex-col gap-1 text-3xl font-semibold tracking-wider">
-                ENPHO
+                NEPAL HEALTH RESEARCH COUNCIL
               </span>
             </div>
-            <div className="flex justify-between items-center border-y py-4">
+            <div className="flex flex-col border-y gap-2 py-4">
               <div className=" text-gray-700 dark:text-gray-300 tracking-wide flex gap-1 items-center">
                 <LocateFixed size={15} />
-                <span>Lalitpur</span>
+                <span>RAMSHAHPATH KATHMANDU</span>
               </div>
-              <Badge className="space-x-1">
+              <Badge className="space-x-1 w-fit">
                 <span>Role</span>
                 <span>:</span>
-                <span> Volunteer</span>
+                <span> RESEARCH ASSISTANT</span>
               </Badge>
             </div>
           </div>
@@ -33,98 +33,63 @@ export default function ExperienceTimeline() {
               Responsibilities
             </h3>
             <ul className="text-sm space-y-2 list-disc px-4 md:px-0">
+              <li>Research Assistant in Non-Communicable Diseases Project</li>
               <li>
-                Planned, prepared and delivered sessions related WASH and CCRM
-                for students of class 7 and 8.
+                Developed training manual and proposal on implementation
+                research related to dengue control in collaboration with the
+                Institute of Tropical Medicine (ITM)
               </li>
               <li>
-                Delivered lessons with enthusiasm and positivity to inspire
-                students about the risk and capacity near their surroundings as
-                well as the quality of water they were drinking.
+                Organized the 10th National Summit of Nepal Health Research
+                Council – "Advancing Health and Population Research and
+                Innovations: Achieving SDGs"
               </li>
               <li>
-                Used planning skills to facilitate smooth running of the
-                sessions.
+                Organized the 24th International FERCAP Conference 2024 –
+                "Maximizing Benefit through Responsible Conduct of Research"
               </li>
               <li>
-                Performed narrative analysis to assess and analyze the knowledge
-                of students.
+                Co-investigator in a pesticide-related research project:
+                “Integrated Assessment of Self-Reported Pesticide Toxicity,
+                Farmer's Knowledge and Practices, and Occupational Health
+                Safety: A Dual Perspective Study in Vegetable Farming
+                Communities” in collaboration with MdM France
               </li>
               <li>
-                Planned, monitored and supervised the activities like mapping
-                and transect walk.
+                Led qualitative research entitled “Exploring Perceptions of
+                People on the Effects of Climate Change in Urban Communities of
+                the Mountain Region in Nepal” from data collection to report
+                making
               </li>
+              <li>Composed numerous book chapters, manuscripts, and reports</li>
               <li>
-                Delivered fun, safe and educational WASH lessons to groups of
-                students.
+                Conducted data analysis using qualitative, quantitative,
+                bibliometric, and spatial techniques
               </li>
-              <li>Finally prepared a report of overall CCRM.</li>
             </ul>
           </div>
         </div>
       ),
     },
     {
-      title: "04/2022 – 04/2022",
+      title: "2024 – 2025",
       content: (
         <div>
           <div>
             <div className="mb-4 space-y-1">
-              <span className="flex flex-col gap-1 text-3xl font-semibold tracking-wider">
-                NIHE
+              <span className="flex flex-col gap-1 text-3xl font-semibold tracking-wider capitalize">
+                Planetary health research center
               </span>
             </div>
-            <div className="flex justify-between items-center border-y py-4">
+            <div className="flex flex-col border-y py-4 gap-2">
               <div className=" text-gray-700 dark:text-gray-300 tracking-wide flex gap-1 items-center">
                 <LocateFixed size={15} />
-                <span>Lalitpur</span>
+                <span>Nagarjun, Kathmandu</span>
               </div>
-              <Badge className="space-x-1">
+              <Badge className="space-x-1 w-fit">
                 <span>Role</span>
                 <span>:</span>
-                <span>Pashupati</span>
-              </Badge>
-            </div>
-          </div>
-          <div className="mt-6">
-            <h3 className="text-lg mb-4 font-medium tracking-wide">
-              Responsibilities
-            </h3>
-            <ul className="text-sm space-y-2 list-disc  px-4 md:px-0">
-              <li>Conducted surveys and documented all responses.</li>
-              <li>Collected waste related information at Pashupati area.</li>
-              <li>
-                Compiled and analyzed data using Microsoft Excel and Access.
-              </li>
-              <li>
-                Managed daily assignment schedule in an efficient and accurate
-                manner.
-              </li>
-              <li>Made the tool in Kobo Toolbox.</li>
-            </ul>
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "03/2022 – 03/2022",
-      content: (
-        <div>
-          <div>
-            <div className="mb-4 space-y-1">
-              <span className="flex flex-col gap-1 text-3xl font-semibold tracking-wider">
-                ENPHO
-              </span>
-            </div>
-            <div className="flex justify-between items-center border-y py-4">
-              <div className=" text-gray-700 dark:text-gray-300 tracking-wide flex gap-1 items-center">
-                <LocateFixed size={15} />
-                <span>Bhaktapur</span>
-              </div>
-              <Badge className="space-x-1">
-                <span>Role</span>
-                <span>:</span>
-                <span>Volunteer</span>
+                <span>Research Consultant</span>
               </Badge>
             </div>
           </div>
@@ -135,111 +100,68 @@ export default function ExperienceTimeline() {
             </h3>
             <ul className="text-sm space-y-2 list-disc  px-4 md:px-0">
               <li>
-                Met with Programme participants to better understand needs and
-                offer personalized support.
+                Engaged in cliamte and health application platform CHAP project.
               </li>
-              <li>
-                Provided physical and emotional support to elderly residents,
-                improving community integration and quality of life.
-              </li>
-              <li>
-                Engaged with customers to build loyalty and encourage
-                participation.
-              </li>
-              <li>Designed stall to attract customers.</li>
-              <li>Distribution of IEC material.</li>
             </ul>
           </div>
         </div>
       ),
     },
+
     {
-      title: "11/2021 – 12/2021",
+      title: "Feb 2022 - Jan 2023",
       content: (
         <div>
           <div>
             <div className="mb-4 space-y-1">
               <span className="flex flex-col gap-1 text-3xl font-semibold tracking-wider">
-                Asian College for Advance Studies
+                ENVIRONMENT AND PUBLIC HEALTH ORGANIZATION
               </span>
             </div>
-            <div className="flex justify-between items-center border-y py-4">
+            <div className="flex flex-col border-y gap-2 py-4">
               <div className=" text-gray-700 dark:text-gray-300 tracking-wide flex gap-1 items-center">
                 <LocateFixed size={15} />
-                <span>Satdobato, Lalitpur</span>
+                <span>BANESHWOR, KATHMANDU, NEPAL</span>
               </div>
-              <Badge className="space-x-1">
+              <Badge className="space-x-1 w-fit">
                 <span>Role</span>
                 <span>:</span>
-                <span>Intern</span>
+                <span>PAID VOLUNTEER</span>
               </Badge>
             </div>
           </div>
-
-          <div className="mt-6">
-            <h3 className="text-lg mb-4 font-medium tracking-wide">
-              Responsibilities
-            </h3>
-            <ul className="text-sm space-y-2 list-disc  px-4 md:px-0">
-              <li>Oversaw POSDCoRB model of the HO.</li>
-              <li>
-                Resolved team conflicts and assisted with identified problems to
-                maintain sense of teamwork.
-              </li>
-              <li>Prepared a five year plan in NCD.</li>
-              <li>Got familiar with DIHS-2 software and e-LMIS v2 software.</li>
-              <li>Created and submitted overall reports to college and HO.</li>
-              <li>Conducted epidemiological studies in Covid-19.</li>
-              <li>Conducted mini-action project in logistics.</li>
-            </ul>
-          </div>
-        </div>
-      ),
-    },
-    {
-      title: "12/2019 – 12/2019",
-      content: (
-        <div>
-          <div>
-            <div className="mb-4 space-y-1">
-              <span className="flex flex-col gap-1 text-3xl font-semibold tracking-wider">
-                Asian College for Advance Studies
-              </span>
-            </div>
-            <div className="flex justify-between items-center border-y py-4">
-              <div className=" text-gray-700 dark:text-gray-300 tracking-wide flex gap-1 items-center">
-                <LocateFixed size={15} />
-                <span>Satdobato, Lalitpur</span>
-              </div>
-              <Badge className="space-x-1">
-                <span>Role</span>
-                <span>:</span>
-                <span>Intern</span>
-              </Badge>
-            </div>
-          </div>
-
           <div className="mt-6">
             <h3 className="text-lg mb-4 font-medium tracking-wide">
               Responsibilities
             </h3>
             <ul className="text-sm space-y-2 list-disc  px-4 md:px-0">
               <li>
-                Conducted the survey with all the health related indicators
-                including geriatrics.
+                Conduct awareness campaigns on air pollution and solid waste
+                management in the community and schools of various
+                municipalities within Kathmandu Valley
               </li>
               <li>
-                Entered data in MS Excel and combined and performed descriptive
-                analysis.
+                Coordinate and communicate with local CSOs, CBOs, schools, and
+                community groups under the guidance of the project team to
+                promote clean air in the municipality
               </li>
               <li>
-                Conducted FGD to address the mother-related problems of the
-                community.
+                Conduct orientation on air pollution and solid waste management
+                as instructed by the project team
               </li>
               <li>
-                Presented the findings in front of the community and ward
-                sachieve.
+                Door-to-door visits and information dissemination to households
+                on standard septic tanks
               </li>
+              <li>
+                Collect information on residents' knowledge and practices of
+                septic tanks, including photographs and participant testimonials
+              </li>
+              <li>
+                Worked as a project coordinator in a cholera project (managing
+                booths, coordinating with UHC, FCHV, and volunteers)
+              </li>
+              <li>Engaged as a project lead in WASH and CCRM projects</li>
             </ul>
           </div>
         </div>

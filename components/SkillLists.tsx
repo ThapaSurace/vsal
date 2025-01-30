@@ -7,8 +7,15 @@ import {
   Calculator,
   Users,
   ClipboardList,
-  Bike,
+  Car,
+  BarChart3,
+  Book,
+  Globe,
+  Database,
+  Network,
+  ChartLine,
 } from "lucide-react";
+import FadeInOut from "./animation/FadeInOut";
 
 export const skills = [
   {
@@ -46,15 +53,55 @@ export const skills = [
     name: "Interpersonal Ability",
     icon: Users,
   },
+  // {
+  //   id: 8,
+  //   name: "SPSS, Epidata, Kobo Toolbox, Google Forms",
+  //   icon: ClipboardList,
+  // },
   {
-    id: 8,
-    name: "SPSS, Epidata, Kobo Toolbox, Google Forms",
+    id: 9,
+    name: "Driving (Both two wheeler and four wheeler)",
+    icon: Car,
+  },
+  {
+    id: 10,
+    name: "SPSS",
+    icon: BarChart3,
+  },
+  {
+    id: 11,
+    name: "NVivo",
+    icon: Book,
+  },
+  {
+    id: 12,
+    name: "ArcGIS Pro",
+    icon: Globe,
+  },
+  {
+    id: 13,
+    name: "Epidata 4.6",
+    icon: Database,
+  },
+  {
+    id: 14,
+    name: "Kobo Toolbox",
     icon: ClipboardList,
   },
   {
-    id: 9,
-    name: "Driving (Two Wheelers Only)",
-    icon: Bike,
+    id: 15,
+    name: "MS Office",
+    icon: FileText,
+  },
+  {
+    id: 16,
+    name: "Vos Viewer",
+    icon: Network,
+  },
+  {
+    id: 17,
+    name: "R Studio",
+    icon: ChartLine,
   },
 ];
 

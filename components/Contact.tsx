@@ -13,7 +13,7 @@ export default function Contact() {
           <div className="bg-slate-100 dark:bg-slate-700 p-6 rounded-md">
             <Mail />
           </div>
-          <span>vsal@gmail.com</span>
+          <span>vsaldahal22@gmail.com</span>
         </div>
       </div>
       <Separator className="md:hidden" />

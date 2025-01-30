@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <div className="h-[60dvh] sm:h-[80dvh] md:h-screen flex items-center justify-between overflow-hidden relative mt-40 md:mt-10">
         {/* <Meteors number={50} /> */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center w-full">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-4 flex flex-col items-center gap-4">
             <span>Hi,</span>
             <SparklesText
@@ -17,17 +17,17 @@ export default function Home() {
               text="I'm Bishal Dahal Khatri"
             ></SparklesText>
           </h1>
-          <p className="text-base sm:text-xl font-medium motion-preset-typewriter-[31] motion-duration-[5s] motion-ease-in-out text-violet-500">
-            Health Research Officer at NHRC
+
+          <p className="text-base sm:text-3xl font-medium motion-preset-typewriter-[17] motion-duration-[7s] motion-ease-in-out text-violet-500">
+            Health Researcher
           </p>
 
           {/* Description */}
-          <p className="leading-relaxed mt-6 mb-8 text-sm sm:text-base text-center">
-            As a Health Research Officer at NHRC, I’m dedicated to improving
-            public health through evidence-based research. I design studies,
-            analyze data, and collaborate with teams to address health
-            challenges and inform policies that create meaningful community
-            impact.
+          <p className="tracking-wide mt-6 mb-8 text-sm sm:text-base text-center">
+            I am a dedicated researcher exploring the impact of climate change
+            on human health. My work focuses on how climatic variables affect
+            health system. Through research and policy analysis, I am to build
+            climate resilient health system
           </p>
 
           {/* Button */}
@@ -45,10 +45,15 @@ export default function Home() {
           </div>
 
           <div className="mt-10 flex gap-3 items-center">
-            <FaFacebookSquare
-              size={35}
-              className="cursor-pointer hover:scale-110 transition-all duration-300 ease-in-out"
-            />
+            <a
+              href="https://www.facebook.com/share/14pVuwQCs1/?mibextid=wwXIfr"
+              target="_blank"
+            >
+              <FaFacebookSquare
+                size={35}
+                className="cursor-pointer hover:scale-110 transition-all duration-300 ease-in-out"
+              />
+            </a>
             <FaSquareXTwitter
               size={35}
               className="cursor-pointer hover:scale-110 transition-all duration-300 ease-in-out"
